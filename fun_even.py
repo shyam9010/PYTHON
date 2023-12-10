@@ -1,7 +1,16 @@
-def even():
-    number1 = int(input("Enter a number : "))
+def iseven(a):
 
-if number1 % 2 == 0:
-    print(f"The number {number1} is even")
+    if a % 2 == 0:
+        return True
+    else:
+        return False
+
+
+a = int(input("Enter a Number : "))
+
+result = iseven(a)
+
+if result is True:
+    print(a, "is even number ")
 else:
-    print(f"The number {number1} is odd")
+    print(a, "is odd number ")
