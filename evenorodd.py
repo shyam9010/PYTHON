@@ -9,4 +9,6 @@ def even():
                 break
         else:
             print(f"The number {number1} is odd")
+
+
 even()
