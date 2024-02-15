@@ -2,9 +2,9 @@ import csv
 from datetime import datetime
 
 file_path = 'c:/Users/shyam/OneDrive/Desktop/PYTHON/samples.csv'  
-fi = open(file_path, 'r')
+with open(file_path, 'r') as fi:
        
-lines = fi.readlines()
+    lines = fi.readlines()
 
 for line in lines:
     current_date_time = datetime.now()
