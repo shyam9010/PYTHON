@@ -7,3 +7,4 @@ a = [
 for i in range(0, len(a)):
     for j in range(0, len(a[0])):
         print(a[i][j])
+
