@@ -6,7 +6,7 @@ for i in a:
     if i > max:
         max = i
 for j in a:
-    if j > max1 and max1 < max:
+    if j > max1 and j < max:
         max1 = j
 product = max * max1
 print(product)
