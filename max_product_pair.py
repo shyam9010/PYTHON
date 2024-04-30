@@ -5,8 +5,8 @@ max1 = a[0]
 for i in a:
     if i > max:
         max = i
-    for j in a:
-        if j > max1 and max1 < max:
-            max1 = j
+for j in a:
+    if j > max1 and max1 < max:
+        max1 = j
 product = max * max1
 print(product)
