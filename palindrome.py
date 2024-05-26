@@ -13,7 +13,7 @@ else:
     print(name, " is not a palindrome")
 # second approach
 
-c = ["s", "a", "a"]
+c = ["s", "a", "s"]
 d = 0
 e = len(c) - 1
 while (d < e):
