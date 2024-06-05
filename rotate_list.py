@@ -13,3 +13,7 @@ reverse(0, len(list)-1, list)
 reverse(0, r-1, list)
 reverse(r, len(list)-1, list)
 print(list)
+
+
+# if it is left rotation
+# add r = len(list)-r%len(list) at line no 10
